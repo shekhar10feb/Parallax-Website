@@ -82,7 +82,8 @@
   }
 
   .item7 {
-    // grid-row-start: 5;
+    width: 100%;
+    grid-row-start: 5;
     grid-row-end: 6;
     grid-column-start: 1;
     grid-column-end: 7;
@@ -116,6 +117,7 @@
   }
   
   .item8 {
+    width: 100%;
     display: grid;
     place-items: center;
     grid-row-start: 8;
@@ -125,8 +127,8 @@
   }
   
   .item8 p {
-    padding: 0.1vw;
-    font-size: 1vw;
+    padding: 0.5vw;
+    font-size: 1.4vw;
     background: rgba(0, 0, 0, 0.4);
     font-family: 'Caveat', cursive;
     border-radius: 0.8vw;
