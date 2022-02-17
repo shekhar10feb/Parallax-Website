@@ -81,6 +81,9 @@ div p {
 }
 
 .item7 {
+  width: 100%;
+  -ms-grid-row: 5;
+      grid-row-start: 5;
   grid-row-end: 6;
   -ms-grid-column: 1;
       grid-column-start: 1;
@@ -120,6 +123,7 @@ div p {
 }
 
 .item8 {
+  width: 100%;
   display: -ms-grid;
   display: grid;
   place-items: center;
@@ -132,8 +136,8 @@ div p {
 }
 
 .item8 p {
-  padding: 0.1vw;
-  font-size: 1vw;
+  padding: 0.5vw;
+  font-size: 1.4vw;
   background: rgba(0, 0, 0, 0.4);
   font-family: 'Caveat', cursive;
   border-radius: 0.8vw;
