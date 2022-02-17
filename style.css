@@ -104,6 +104,7 @@ div p {
       grid-row-start: 2;
   grid-row-end: 3;
   margin: 0;
+  padding: 0.8vw;
 }
 
 .item7 .company {
@@ -115,6 +116,7 @@ div p {
   font-size: 1.5vw;
   font-family: 'Caveat', cursive;
   margin: 0;
+  padding: 0.8vw;
 }
 
 .item8 {
