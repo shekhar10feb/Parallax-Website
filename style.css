@@ -30,7 +30,7 @@ div {
 .parallax > div {
   background-color: rgba(255, 255, 255, 0.8);
   text-align: center;
-  padding: 20px 0;
+  padding: 0.2rem 0;
   font-size: 1rem;
   background-color: transparent;
 }
@@ -43,6 +43,7 @@ div p {
 
 /* Section 1 */
 .section1 {
+  width: 100%;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: auto 1fr auto auto auto auto;
@@ -55,22 +56,28 @@ div p {
 }
 
 .parallax .item1 a {
-  font-size: 1.6rem;
+  font-size: 2.5vw;
   text-decoration: none;
-  margin-left: 0.4rem;
+  margin-left: 0.4vw;
   color: white;
 }
 
-.parallax .item3 a, .parallax .item4 a, .parallax .item5 a, .parallax .item6 a {
-  font-size: 1.2rem;
-  margin: 0.2rem 1rem;
+.parallax .item3 a, .parallax .item4 a, .parallax .item5 a {
+  font-size: 2vw;
+  margin: 0.2vw 1vw;
   text-decoration: none;
+  color: white;
+}
+
+.item6 i a img {
+  width: 2vw;
+  height: 2vw;
   color: white;
 }
 
 .item7 {
-      grid-row-start: 5;
   grid-row-end: 6;
+  -ms-grid-column: 1;
       grid-column-start: 1;
   grid-column-end: 7;
   display: -ms-grid;
@@ -79,15 +86,16 @@ div p {
 }
 
 .item7 p {
-  font-size: 2.2rem;
+  font-size: 2.2vw;
   padding: 1%;
-  border-radius: 1rem;
+  border-radius: 0.6vw;
   background: rgba(0, 0, 0, 0.4);
 }
 
 .item7 .global {
   display: -ms-grid;
   display: grid;
+  -ms-grid-row: 2;
       grid-row-start: 2;
   grid-row-end: 3;
   margin: 0;
@@ -96,10 +104,10 @@ div p {
 .item7 .company {
   display: -ms-grid;
   display: grid;
-  font-size: 1rem;
+  -ms-grid-row: 1;
       grid-row-start: 1;
   grid-row-end: 2;
-  font-size: 1.4rem;
+  font-size: 1.5vw;
   font-family: 'Caveat', cursive;
   margin: 0;
 }
@@ -108,33 +116,37 @@ div p {
   display: -ms-grid;
   display: grid;
   place-items: center;
+  -ms-grid-row: 8;
       grid-row-start: 8;
   grid-row-end: 9;
+  -ms-grid-column: 1;
       grid-column-start: 1;
   grid-column-end: 7;
 }
 
 .item8 p {
   padding: 1%;
+  font-size: 1vw;
   background: rgba(0, 0, 0, 0.4);
   font-family: 'Caveat', cursive;
-  border-radius: 5rem;
+  border-radius: 0.8vw;
 }
 
 /* Section 2 */
 .section2 {
+  width: 100%;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: auto auto;
       grid-template-columns: auto auto;
-  gap: 7px;
+  gap: 0.5vw;
   background: white;
-  padding: 7px;
+  padding: 0.5vw;
 }
 
 .section2 div {
   background-color: #22b4b4;
-  padding: 1rem;
+  padding: 0.5vw;
 }
 
 .whole_news {
@@ -152,7 +164,7 @@ div p {
 }
 
 .video {
-  margin: 2rem;
+  margin: 1vw;
   display: -ms-grid;
   display: grid;
   place-items: center;
@@ -162,39 +174,40 @@ div p {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  font-size: 1.8rem;
+  font-size: 1.7vw;
   font-family: 'Caveat', cursive;
   text-align: left;
   font-weight: bolder;
-  padding: 0.5rem;
+  padding: 0.5vw;
   margin: 2%;
   color: #d609f1;
-  border-radius: 1rem;
+  border-radius: 0.8vw;
   border: 0.25rem solid #d609f1;
 }
 
 .summary {
-  font-size: 1.6rem;
+  font-size: 2vw;
   line-height: 1.2;
-  padding: 0.5rem;
+  padding: 0.5vw;
 }
 
 .news {
-  font-size: 0.9rem;
+  font-size: 1.2vw;
   line-height: 1.1;
-  padding: 0.5rem;
+  padding: 1vw;
 }
 
 /* Section 3 */
 .section3 {
+  width: 100%;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: auto;
       grid-template-columns: auto;
   -ms-grid-rows: auto 1fr auto;
       grid-template-rows: auto 1fr auto;
-  gap: 10px;
-  padding: 10px;
+  gap: 0.5vw;
+  padding: 0.5vw;
   background-color: transparent;
 }
 
@@ -202,15 +215,16 @@ div p {
   display: -ms-grid;
   display: grid;
   place-items: center;
+  -ms-grid-row: 2;
       grid-row-start: 2;
   grid-row-end: 3;
   background: rgba(0, 0, 0, 0.4);
 }
 
 .info {
-  font-size: 1.5rem;
-  padding: 1rem;
-  border-radius: 1rem;
+  font-size: 1.5vw;
+  padding: 0.8vw;
+  border-radius: 0.8vw;
   background: rgba(0, 0, 0, 0.4);
 }
 
@@ -218,6 +232,7 @@ div p {
   display: -ms-grid;
   display: grid;
   place-items: center;
+  -ms-grid-row: 3;
       grid-row-start: 3;
   grid-row-end: 4;
 }
