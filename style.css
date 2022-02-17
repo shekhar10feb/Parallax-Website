@@ -24,20 +24,24 @@ body {
 }
 
 div {
-  border-radius: 1rem;
+  border-radius: 0.8vw;
+}
+
+.dialogue {
+  margin-top: 0.5vw;
 }
 
 .parallax > div {
   background-color: rgba(255, 255, 255, 0.8);
   text-align: center;
-  padding: 0.2rem 0;
-  font-size: 1rem;
+  padding: 0.2vw 0;
+  font-size: 1vw;
   background-color: transparent;
 }
 
 div p {
-  padding: 0.1%;
-  margin: 0.2rem;
+  padding: 0.1vw;
+  margin: 0.2vw;
   text-align: left;
 }
 
@@ -50,9 +54,9 @@ div p {
       grid-template-columns: auto 1fr auto auto auto auto;
   -ms-grid-rows: auto auto auto auto auto auto auto auto;
       grid-template-rows: auto auto auto auto auto auto auto auto;
-  gap: 10px;
+  gap: 0.5vw;
   background-color: transparent;
-  padding: 10px;
+  padding: 0.5vw;
 }
 
 .parallax .item1 a {
@@ -72,6 +76,7 @@ div p {
 .item6 i a img {
   width: 2vw;
   height: 2vw;
+  margin: 0.2vw 0.4vw;
   color: white;
 }
 
@@ -87,7 +92,7 @@ div p {
 
 .item7 p {
   font-size: 2.2vw;
-  padding: 1%;
+  padding: 0.1vw;
   border-radius: 0.6vw;
   background: rgba(0, 0, 0, 0.4);
 }
@@ -125,7 +130,7 @@ div p {
 }
 
 .item8 p {
-  padding: 1%;
+  padding: 0.1vw;
   font-size: 1vw;
   background: rgba(0, 0, 0, 0.4);
   font-family: 'Caveat', cursive;
