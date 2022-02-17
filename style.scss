@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Montserrat:wght@100;300&family=Roboto:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    width: 100%;
+    height: 99.8vh;
+    color: white;
+    font-family: sans-serif;
+    
+  }
+  
+  /* All elements  */
+  .parallax {
+    background-image: url('https://www.suzlon.com/images/slider/suzlon-wind-energy-slider_one.jpg');
+    
+    min-height: 100%;
+    
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  div {
+    border-radius: 1rem;
+  }
+
+  .parallax > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 1rem;
+    background-color: transparent;
+  }
+  
+  div p {
+    padding: 0.1%;
+    margin: 0.2rem;
+    text-align: left;
+    
+  }
+
+  /* Section 1 */
+  .section1 {
+    display: grid;
+    grid-template-columns: auto 1fr auto auto auto auto;
+    grid-template-rows: auto auto auto auto auto auto auto auto;
+    gap: 10px;
+    background-color: transparent;
+    padding: 10px;
+  }
+  
+  .parallax .item1 a {
+    font-size: 1.6rem;
+    text-decoration: none;
+    margin-left: 0.4rem;
+    color: white;
+  }
+
+  .parallax .item3 a, .parallax .item4 a, .parallax .item5 a, .parallax .item6 a {
+    font-size: 1.2rem;
+    margin: 0.2rem 1rem;
+    text-decoration: none;
+    color: white;
+  }
+
+  .item7 {
+    grid-row-start: 5;
+    grid-row-end: 6;
+    grid-column-start: 1;
+    grid-column-end: 7;
+    display: grid;
+    place-items: center;
+  }
+  
+  .item7 p {
+    font-size: 2.2rem;
+    padding: 1%;
+    border-radius: 1rem;
+    background: rgba(0, 0, 0, 0.4);
+  }
+  
+  .item7 .global {
+    display: grid;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    margin: 0;
+  }
+
+  .item7 .company {
+    display: grid;
+    font-size: 1rem;
+    grid-row-start:1;
+    grid-row-end: 2;
+    font-size: 1.4rem;
+    font-family: 'Caveat', cursive;
+    margin: 0;
+  }
+  
+  .item8 {
+    display: grid;
+    place-items: center;
+    grid-row-start: 8;
+    grid-row-end: 9;
+    grid-column-start: 1;
+    grid-column-end: 7; 
+  }
+  
+  .item8 p {
+    padding: 1%;
+    background: rgba(0, 0, 0, 0.4);
+    font-family: 'Caveat', cursive;
+    border-radius: 5rem;
+  }
+  
+  /* Section 2 */
+  .section2 {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 7px;
+    background: white;
+    padding: 7px;
+  }
+  
+  .section2 div {
+    background-color: #22b4b4;
+    padding: 1rem;
+  }
+  
+  .whole_news {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .video {
+    margin: 2rem;
+    display: grid;
+    place-items: center;
+  }
+  
+  .highlight {
+    display: flex;
+    font-size: 1.8rem;
+    font-family: 'Caveat', cursive;
+    text-align: left;
+    font-weight: bolder;
+    padding: 0.5rem;
+    margin: 2%;
+    color: rgb(214, 9, 241);
+    border-radius: 1rem;
+    border: 0.25rem solid rgb(214, 9, 241);
+  }
+  
+  .summary {
+    font-size: 1.6rem;
+    line-height: 1.2;
+    padding: 0.5rem;
+  }
+  
+  .news {
+    font-size: 0.9rem;
+    line-height: 1.1;
+    padding: 0.5rem;
+  }
+  
+  /* Section 3 */
+  .section3 {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto 1fr auto;
+    gap: 10px;
+    padding: 10px;
+    background-color: transparent;
+  }
+  
+  .moreInfo {
+    display: grid;
+    place-items: center;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    background: rgba(0, 0, 0, 0.4);
+   
+  }
+  
+  .info {
+    font-size: 1.5rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    background: rgba(0, 0, 0, 0.4);
+  }
+
+  .about {
+    display: grid;
+    place-items: center;
+    grid-row-start: 3;
+    grid-row-end: 4; 
+  }
